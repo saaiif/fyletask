@@ -1,0 +1,65 @@
+.rSection > img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+.rSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25px 0;
+}
+blockquote {
+	max-width: 600px;
+	margin: 10px 30px;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.blockquote__text {
+	font-style: italic;
+	font-size: 20px;
+	opacity: 0.8;
+	line-height: 5px;
+}
+@media (max-width: 520px) {
+	.blockquote__text {
+		font-style: italic;
+		font-size: 17px;
+		opacity: 0.8;
+		padding: 0 !important;
+		line-height: 15px !important;
+	}
+}
+@media (max-width: 768px) {
+	.rSection {
+		flex-direction: column;
+		width: 100%;
+		text-align: center;
+	}
+	.blockquote_quoted::before {
+		/* margin-bottom: -90px;
+	margin-top: -20px; */
+		margin-left: -350px !important;
+	}
+	.blockquote__text {
+		line-height: 1px;
+	}
+}
+@media (max-width: 450px) {
+	.blockquote_quoted::before {
+		/* margin-bottom: -90px;
+	margin-top: -20px; */
+		margin-left: -200px !important;
+		margin-right: 60px !important;
+	}
+}
+.blockquote_quoted::before {
+	content: "\201C";
+	font-size: 100px;
+	color: #0099ff;
+	display: block;
+	margin-bottom: -90px;
+	margin-top: -20px;
+	margin-left: -20px;
+}
