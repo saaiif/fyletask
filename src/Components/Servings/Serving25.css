@@ -9,6 +9,11 @@ body {
 	justify-content: center;
 	/* min-height: 100vh; */
 }
+.endTitile>h6{
+	font-size: 17px!important;
+	font-weight: 700;
+	margin-bottom:"20px";
+}
 
 .mainSub {
 	display: flex;

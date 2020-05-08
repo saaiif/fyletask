@@ -37,7 +37,9 @@ class Serving200 extends Component {
 							<p>For 200 serving</p>
 						</div>
 						<div class="card active">
-							<h6 style={margin}>Your saving with lollipop</h6>
+							<div className="endTitile">
+								<h6>Your saving with lollipop</h6>
+							</div>
 
 							{/* <h4>Michael Pearson</h4> */}
 							<div className="mainSub" style={colors}>
