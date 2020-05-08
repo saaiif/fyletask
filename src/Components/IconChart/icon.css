@@ -98,8 +98,14 @@ html {
 	border-bottom: none;
 	margin-top:46px;
 }
+@media(max-width:900px){
+	.pricing-features-list{
+		text-align:center;
+	}
+}
 
 @media (min-width: 900px) {
+	
 	.pricing-plan {
 		border-bottom: none;
 		border-right: 1px solid #e1f1ff;
