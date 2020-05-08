@@ -16,7 +16,9 @@ export default class Reviews extends Component {
 	render() {
 		return (
 			<div>
+				<h2>Here's is what our customers have to say</h2>
 				<div className="rSection">
+					
 					<img src={require('../../assets/second.jpg')} />
 					<blockquote className="blockquote_quoted">
 						<p className="blockquote__text">Lorem ipsum dolor sit amet tempor,</p>
