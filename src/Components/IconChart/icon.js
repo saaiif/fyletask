@@ -12,15 +12,15 @@ export default function Icon() {
 					<div class="panel pricing-table">
 						<div class="features-plan">
 							<ul class="features-names">
-								<li class="pricing-features-item">Lorem Ipsum 1</li>
-								<li class="pricing-features-item">Lorem Ipsum 2</li>
-								<li class="pricing-features-item">Lorem Ipsum 3</li>
-								<li class="pricing-features-item">Lorem Ipsum 4</li>
-								<li class="pricing-features-item">Lorem Ipsum 5</li>
-								<li class="pricing-features-item">Lorem Ipsum 6</li>
-								<li class="pricing-features-item">Lorem Ipsum 7</li>
-								<li class="pricing-features-item">Lorem Ipsum 8</li>
-								<li class="pricing-features-item">Lorem Ipsum 9</li>
+								<li class="pricing-features-list">Lorem Ipsum 1</li>
+								<li class="pricing-features-list">Lorem Ipsum 2</li>
+								<li class="pricing-features-list">Lorem Ipsum 3</li>
+								<li class="pricing-features-list">Lorem Ipsum 4</li>
+								<li class="pricing-features-list">Lorem Ipsum 5</li>
+								<li class="pricing-features-list">Lorem Ipsum 6</li>
+								<li class="pricing-features-list">Lorem Ipsum 7</li>
+								<li class="pricing-features-list">Lorem Ipsum 8</li>
+								<li class="pricing-features-list">Lorem Ipsum 9</li>
 							</ul>
 						</div>
 

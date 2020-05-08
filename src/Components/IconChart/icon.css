@@ -96,6 +96,7 @@ html {
 
 .features-plan:first-child {
 	border-bottom: none;
+	margin-top:46px;
 }
 
 @media (min-width: 900px) {
@@ -159,9 +160,15 @@ html {
 }
 .pricing-features-item {
 	/* border-top: 1px solid #e1f1ff; */
-	font-size: 12px;
+	font-size: 20px;
 	line-height: 1.5;
 	padding: 15px 0;
+}
+.pricing-features-list{
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 17px 0;
+	/* margin-top:20px; */
 }
 ul li {
 	list-style: none;
