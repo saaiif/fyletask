@@ -58,7 +58,7 @@ ul.header li a {
 	margin-bottom: 10px;
 }
 ul.header li a.active {
-	border: 3px solid #0099ff;
+	border: 3px solid #00a8ff;
 }
 .display {
 	display: flex;
